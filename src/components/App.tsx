@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import {GameBoard} from './GameBoard/GameBoard';
 
 const App = () => {
     return (
         <div>
-            Test
+            <GameBoard/>
         </div>
     )
 }
